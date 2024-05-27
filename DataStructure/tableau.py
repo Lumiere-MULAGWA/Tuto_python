@@ -9,13 +9,12 @@ class Array:
     
     def add(self,*element):
         self.array.append(element)
-        
+
     def remove(self,element):
         del self.array(element)
-    
         
-    
 table = Array(5,int)
 table.add(4,5,6,7)
+table.remove(2)
 print(table.array)
 
