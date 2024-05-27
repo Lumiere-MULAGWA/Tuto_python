@@ -11,9 +11,15 @@ class Array:
         self.array.append(element)
 
     def delete(self,index):
-        del self.array[index]
+        try:
+            del self.array[index]
+        except:
+            print("imposibe de delete")
     def remove(self,element):
-        self.array.remove(element)
+        try:
+            self.array.remove(element)
+        except:
+            print("impossible de remove ")
     def clear(self):
         self.array.clear()
     
@@ -23,7 +29,7 @@ table.add(4)
 table.add(5)
 table.add(6)
 table.add(3)
-table.remove(2)
+table.delete(10)
 
 print(table.array)
 
