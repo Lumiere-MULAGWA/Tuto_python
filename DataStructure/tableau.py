@@ -31,5 +31,6 @@ table.add(6)
 table.add(3)
 table.delete(10)
 
+
 print(table.array)
 
