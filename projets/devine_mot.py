@@ -25,11 +25,13 @@ def devine():
             else :
                 print("\tle nombre est plus petit")
                 print(f"\til vous reste {3 -essaie}")
+                print("#"*50)
             essaie += 1
         if essaie== 4:
             demande()
         
 def demande():
+    print("-"*50)
     print("\tvoulez vous recommencer ? (o/n) ")
     choix = input("\t\t>>> ")
     if choix != "o":
