@@ -12,6 +12,8 @@ class Array:
 
     def delete(self,index):
         del self.array[index]
+    def remove(self,element):
+        self.array.remove(element)
     def clear(self):
         self.array.clear()
     
