@@ -18,7 +18,10 @@ def devine():
             else :
                 print("le nombre est plus petit")
                 print(f"il vous reste {3 -essaie}")
-        essaie += 1
+            essaie += 1
+        if essaie== 0:
+            demande()
+        
 def demande():
     print("voulez vous recommencer ? (o/n) ")
     choix = input(">>> ")
