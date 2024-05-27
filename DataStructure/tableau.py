@@ -9,6 +9,7 @@ class Array:
     
     def add(self,*element):
         self.array.append(element)
+        
     def remove(self,element):
         del self.array(element)
     
