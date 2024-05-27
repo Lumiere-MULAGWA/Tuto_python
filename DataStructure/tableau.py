@@ -10,10 +10,11 @@ class Array:
     def add(self,element):
         self.array.append(element)
 
-    def remove(self,index):
+    def delete(self,index):
         del self.array[index]
     def clear(self):
         self.array.clear()
+    
         
 table = Array(5,int)
 table.add(4)
