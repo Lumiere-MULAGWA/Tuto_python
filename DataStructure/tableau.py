@@ -22,6 +22,8 @@ class Array:
             print("impossible de remove ")
     def clear(self):
         self.array.clear()
+    def lumiere():
+        print("lumiere")
     
         
 table = Array(5,int)
