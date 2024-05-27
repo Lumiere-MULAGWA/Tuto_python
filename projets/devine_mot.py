@@ -39,6 +39,6 @@ def demande():
     else:
         devine()
 devine()
-
+#devine mot est un jeut facile a faire et a comprendre
 
 
