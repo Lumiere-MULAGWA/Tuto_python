@@ -14,3 +14,7 @@ while (age < = 18):
 #for sur les nombres
 for i in range(10):
   print(f"{i} est la {i+1} ieme iteration")
+#for sur les caracteres
+chaine = "hello world"
+for i in chaine:
+  print(f"{i} est dans chaine")
